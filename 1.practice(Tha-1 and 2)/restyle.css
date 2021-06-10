@@ -1,0 +1,20 @@
+*{
+
+}
+div{
+    border:2px solid black;
+    margin:0 100px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+.heading{
+    width:250px;
+    margin:0 auto;
+}
+div{
+    background-color:rgb(163, 211, 211) ;
+}
+.myfont{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: ;
+}

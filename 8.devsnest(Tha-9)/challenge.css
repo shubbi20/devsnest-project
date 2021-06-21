@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.flexcontainer{
+   display: flex;
+   background-color: #451e3e;
+   justify-content: center;
+}
+.booked{
+    border: 5px inset palevioletred;
+    margin: 2em;
+    background-color: rgb(250, 194, 213);
+    padding: 0.2em;
+}
+.unbooked{
+    border: 5px inset palevioletred;
+    margin:2em;
+    background-color: rgb(250, 194, 213);
+    padding: 0.2em;
+}
+
+.container{
+    display:grid;
+
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(6,1fr);
+    border: 2px solid rgb(6, 16, 37);
+    padding: 0.15em;
+    /* justify-content: space-between; */
+    height: 400px;
+    
+}
+.grid22{
+    border: 0.3em solid paleturquoise;
+    background-color:#651e3e;
+}
+.grid22:hover{
+    background-color: #8a3b60;
+}
+
+.change{
+   
+    background-color: palevioletred  ;
+}

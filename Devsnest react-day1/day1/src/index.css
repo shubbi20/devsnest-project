@@ -1,0 +1,30 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.Gridcontainer{
+    
+    height: 300px;
+    width: 300px;
+    display: grid;
+    border: 1em solid black;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);   
+   margin:10% auto;
+   padding: 0.1em;
+}
+/* p{border: 1px solid yellow;} */
+/* p:nth-child(2n+1) {
+    background: black;
+  } */
+  
+  p:nth-child(-2n+8), 
+  p:nth-child(8)  ~  p:nth-child(-2n+15), 
+  p:nth-child(16) ~ p:nth-child(-2n+24), 
+  p:nth-child(24) ~ p:nth-child(-2n+31), 
+  p:nth-child(32) ~ p:nth-child(-2n+40), 
+  p:nth-child(40) ~ p:nth-child(-2n+47), 
+  p:nth-child(48) ~ p:nth-child(-2n+56), 
+  p:nth-child(56) ~ p:nth-child(-2n+63) {
+      background-color: #000;
+  }

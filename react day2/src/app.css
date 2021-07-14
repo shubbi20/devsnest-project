@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.cardcss{
+    border: 0.2em solid palevioletred;
+   margin-top: 6em;
+   margin-left: 23em;
+    display: inline-block;
+    
+    text-align: center;
+   
+}
+.separateblock{
+    border:0.1em solid paleturquoise;
+    background-color: paleturquoise;
+    padding: 0.6em;
+}
+
+.headingline{
+    background-color: rgb(108, 183, 185);
+}
